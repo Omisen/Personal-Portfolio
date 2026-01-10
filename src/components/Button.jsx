@@ -11,7 +11,7 @@ export const Button = ({className = "", size = "default", children}) => {
 
     return (
         <button className={classes}>
-            <span className="relative felx items-center justify-center gap-2">
+            <span className="relative inline-flex items-center justify-center gap-2">
                 {children}
             </span>
         </button>
