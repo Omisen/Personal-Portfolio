@@ -12,7 +12,7 @@ const skills = [
   "Django",
   "FastAPI",
   "XML",
-  "RPC Architecture",
+  "ERP Architecture",
   "PostgreSQL",
   "JavaScript",
   "MongoDB",
@@ -115,7 +115,7 @@ export const Hero = () => {
               {[
                 { icon: Mail, href: "mailto:simone.conzo@outlook.it" },
                 { icon: Github, href: "https://github.com/Omisen" },
-                { icon: Linkedin, href: "#" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/simone-conzo-52b2743a6/" },
               ].map((social, index) => (
                 <a
                   key={index}

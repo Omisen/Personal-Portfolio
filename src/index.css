@@ -97,19 +97,19 @@
   @keyframes float {
     0%,
     100% {
-        transform: translateY(0);
+      transform: translateY(0);
     }
-    50%{
-        transform: translateY(-10px);
+    50% {
+      transform: translateY(-10px);
     }
   }
 
   @keyframes marquee {
     0% {
-        transform: translateX(0);
+      transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+      transform: translateX(-50%);
     }
   }
 
@@ -167,5 +167,11 @@
     background-color: color-mix(in srgb, #26c4b8 15%, transparent);
     backdrop-filter: blur(16px);
     box-shadow: 0 0 20px color-mix(in srgb, #26c4b8 20%, transparent);
+  }
+
+  .timeline-glow {
+    box-shadow: 0 0 40px
+        color-mix(in srgb, var(--color-primary) 35%, transparent),
+      0 0 80px color-mix(in srgb, var(--color-primary) 25%, transparent);
   }
 }
