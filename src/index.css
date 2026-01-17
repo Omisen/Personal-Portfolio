@@ -7,10 +7,10 @@
   --color-card: #141a1f;
 
   --color-primary: #20b2a6;
-  --color-primary-foregroiund: #ffffff;
+  --color-primary-foreground: #ffffff;
 
   --color-secondary: #1f2830;
-  --color-secondary-foregrounf: #20b2a6;
+  --color-secondary-foreground: #20b2a6;
 
   --color-muted: #252e37;
   --color-muted-foreground: #7a8491;
@@ -26,6 +26,10 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+  }
+
+  button {
+    cursor: pointer;
   }
 
   body {
